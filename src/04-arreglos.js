@@ -1,0 +1,17 @@
+
+// Arreglos
+
+//Forma 1
+// const arreglo =  new Array();
+
+// Forma 2 - más utilizada
+const arreglo = [1,2,3,4];
+
+let arreglo2 = [...arreglo, 5, 6, 7]
+
+// Método map()
+const arreglo3 = arreglo2.map(function(x){
+    return x*2;
+})
+
+console.log(arreglo3);
